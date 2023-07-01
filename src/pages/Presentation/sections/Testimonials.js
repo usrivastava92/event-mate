@@ -36,7 +36,7 @@ function Information() {
           <Grid item xs={12} md={6} lg={4}>
             <DefaultReviewCard
               color="info"
-              name="Nick Willever"
+              name="Arjun Sharma"
               date="1 day ago"
               review="This is an excellent website, they helped me organise a wonderful event. Highly recommended!!!"
               rating={4}
@@ -54,7 +54,7 @@ function Information() {
           <Grid item xs={12} md={6} lg={4}>
             <DefaultReviewCard
               color="info"
-              name="Samuel Kamuli"
+              name="Vikram Singhania"
               date="3 weeks ago"
               review="Great service and support. They were there with a prompt support thought the ceremony."
               rating={5}
