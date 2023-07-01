@@ -10,10 +10,6 @@ import MKTypography from "components/MKTypography";
 import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
 
 // Images
-import team1 from "assets/images/team-5.jpg";
-import team2 from "assets/images/bruce-mars.jpg";
-import team3 from "assets/images/ivana-squares.jpg";
-import team4 from "assets/images/ivana-square.jpg";
 
 function Team() {
   return (
@@ -41,40 +37,44 @@ function Team() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
               <HorizontalTeamCard
-                image={team1}
+                image={
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROu78KA_037jYg30etatGJjjF1joaLMrghY80W9h3TAasCM1ldnahn0NZbgDibiqNP7qU&usqp=CAU"
+                }
                 name="Aishwarya Rai"
                 position={{ color: "info", label: "Wedding Planner" }}
-                description="Artist is a term applied to a person who engages in an activity deemed to be an art."
+                description="Event Collaborate is an excellent platform that brings professionals together, enabling us to collectively make an impactful contribution."
               />
             </MKBox>
           </Grid>
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
               <HorizontalTeamCard
-                image={team2}
+                image={"https://i.pinimg.com/564x/4d/15/1e/4d151ef521d81ad4c76d4558a24220d0.jpg"}
                 name="Kartik Aryan"
                 position={{ color: "info", label: "Caterer" }}
-                description="Artist is a term applied to a person who engages in an activity deemed to be an art."
+                description={`${process.env.REACT_APP_TITLE} is a wonderful platform, that brings all us professionals together to make an impact`}
               />
             </MKBox>
           </Grid>
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
-                image={team3}
-                name="Tapsi Pannu"
+                image={
+                  "https://www.indiancinemagallery.net/wp-content/photos/celebs/kiara-advani/Kiara-Advani-during-her-interview-19.jpg"
+                }
+                name="Kiara Advani"
                 position={{ color: "info", label: "Photoshoot Specialist" }}
-                description="Artist is a term applied to a person who engages in an activity deemed to be an art."
+                description="Event Engage is an exceptional platform that gathers professionals, enabling us to unite and make a significant impact."
               />
             </MKBox>
           </Grid>
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
-                image={team4}
+                image={"https://assets.telegraphindia.com/telegraph/58BDA7969B43B_IMAGE1_.jpg"}
                 name="Varun Dhawan"
                 position={{ color: "info", label: "Destination Wedding Planner" }}
-                description="Artist is a term applied to a person who engages in an activity deemed to be an art."
+                description="Event Connect is an incredible platform that fosters collaboration among professionals, empowering us to make a real difference."
               />
             </MKBox>
           </Grid>
