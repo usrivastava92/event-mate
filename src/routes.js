@@ -25,7 +25,6 @@
 import AddBusinessIcon from "@mui/icons-material/AddBusiness";
 import MapIcon from "@mui/icons-material/Map";
 // @mui icons
-
 // Pages
 import AboutUs from "layouts/pages/landing-pages/about-us";
 import ContactUs from "layouts/pages/landing-pages/contact-us";
@@ -47,17 +46,17 @@ const routes = [
         collapse: [
           {
             name: "Pre-Wedding Shoot",
-            route: "/pages/landing-pages/about-us",
+            //route: "/pages/landing-pages/about-us",
             component: <AboutUs />,
           },
           {
             name: "Cinema/Video",
-            route: "/pages/landing-pages/contact-us",
+            //route: "/pages/landing-pages/contact-us",
             component: <ContactUs />,
           },
           {
             name: "Maternity Shoot",
-            route: "/pages/landing-pages/author",
+            //route: "/pages/landing-pages/author",
             component: <Author />,
           },
         ],
@@ -67,12 +66,12 @@ const routes = [
         collapse: [
           {
             name: "Wedding Planner",
-            route: "/pages/authentication/sign-in",
+            //route: "/pages/authentication/sign-in",
             component: <SignIn />,
           },
           {
             name: "Catering Service",
-            route: "/pages/authentication/sign-in",
+            //route: "/pages/authentication/sign-in",
             component: <SignIn />,
           },
         ],
@@ -92,42 +91,42 @@ const routes = [
         collapse: [
           {
             name: "Banquet Halls",
-            route: "/sections/page-sections/page-headers",
+            //route: "/sections/page-sections/page-headers",
             component: <PageHeaders />,
           },
           {
             name: "Lawns / Farmhouses",
-            route: "/sections/page-sections/page-headers",
+            //route: "/sections/page-sections/page-headers",
             component: <PageHeaders />,
           },
           {
             name: "Resorts",
-            route: "/sections/page-sections/page-headers",
+            //route: "/sections/page-sections/page-headers",
             component: <PageHeaders />,
           },
           {
             name: "Small Function / Party Halls",
-            route: "/sections/page-sections/page-headers",
+            //route: "/sections/page-sections/page-headers",
             component: <PageHeaders />,
           },
           {
             name: "Destination Wedding",
-            route: "/sections/page-sections/page-headers",
+            //route: "/sections/page-sections/page-headers",
             component: <PageHeaders />,
           },
           {
             name: "Kalyana Mandapam",
-            route: "/sections/page-sections/page-headers",
+            //route: "/sections/page-sections/page-headers",
             component: <PageHeaders />,
           },
           {
             name: "4 Star & Above Hotels",
-            route: "/sections/page-sections/page-headers",
+            //route: "/sections/page-sections/page-headers",
             component: <PageHeaders />,
           },
           {
             name: "Venue Concierge Services",
-            route: "/sections/page-sections/page-headers",
+            //route: "/sections/page-sections/page-headers",
             component: <PageHeaders />,
           },
         ],
@@ -139,37 +138,37 @@ const routes = [
         collapse: [
           {
             name: "Pallavaram",
-            route: "/sections/page-sections/page-headers",
+            //route: "/sections/page-sections/page-headers",
             component: <PageHeaders />,
           },
           {
             name: "Velachery",
-            route: "/sections/page-sections/page-headers",
+            //route: "/sections/page-sections/page-headers",
             component: <PageHeaders />,
           },
           {
             name: "Tambaram",
-            route: "/sections/page-sections/page-headers",
+            //route: "/sections/page-sections/page-headers",
             component: <PageHeaders />,
           },
           {
             name: "Ambattur",
-            route: "/sections/page-sections/page-headers",
+            //route: "/sections/page-sections/page-headers",
             component: <PageHeaders />,
           },
           {
             name: "Sholinganallur",
-            route: "/sections/page-sections/page-headers",
+            //route: "/sections/page-sections/page-headers",
             component: <PageHeaders />,
           },
           {
             name: "Egmore",
-            route: "/sections/page-sections/page-headers",
+            //route: "/sections/page-sections/page-headers",
             component: <PageHeaders />,
           },
           {
             name: "Indira Nagar",
-            route: "/sections/page-sections/page-headers",
+            //route: "/sections/page-sections/page-headers",
             component: <PageHeaders />,
           },
         ],

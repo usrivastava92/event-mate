@@ -34,10 +34,10 @@ function Counters() {
           </Grid>
           <Grid item xs={12} md={4}>
             <DefaultCounterCard
-              count={100}
+              count={10000}
               suffix="+"
-              title="Satisfied Customers"
-              description="Have a look at what our customers say about us"
+              title="5 Start Reviews"
+              description="After successfully organizing over 15000+ event we have got 10000+ 5 star reviews"
             />
           </Grid>
         </Grid>

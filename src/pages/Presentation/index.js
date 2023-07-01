@@ -6,23 +6,17 @@ import Card from "@mui/material/Card";
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
-import MKSocialButton from "components/MKSocialButton";
 
 // Material Kit 2 React examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 import DefaultFooter from "examples/Footers/DefaultFooter";
-import FilledInfoCard from "examples/Cards/InfoCards/FilledInfoCard";
 
 // Presentation page sections
 import Counters from "pages/Presentation/sections/Counters";
-import Information from "pages/Presentation/sections/Information";
-import DesignBlocks from "pages/Presentation/sections/DesignBlocks";
-import Pages from "pages/Presentation/sections/Pages";
 import Testimonials from "pages/Presentation/sections/Testimonials";
-import Download from "pages/Presentation/sections/Download";
 
 // Presentation page components
-import BuiltByDevelopers from "pages/Presentation/components/BuiltByDevelopers";
+import Team from "pages/LandingPages/AboutUs/sections/Team";
 
 // Routes
 import routes from "routes";
@@ -30,6 +24,7 @@ import footerRoutes from "footer.routes";
 
 // Images
 import bgImage from "assets/images/bg-presentation-1.jpg";
+import Newsletter from "pages/LandingPages/AboutUs/sections/Newsletter";
 
 function Presentation() {
   const navbar = (
@@ -110,10 +105,11 @@ function Presentation() {
         }}
       >
         <Counters />
-        <Information />
-        <DesignBlocks />
-        <Pages />
-        <Container sx={{ mt: 6 }}>
+        {/*
+          <Information />
+          <DesignBlocks />
+          <Pages />
+          <Container sx={{ mt: 6 }}>
           <BuiltByDevelopers />
         </Container>
         <Container>
@@ -160,8 +156,12 @@ function Presentation() {
             </Grid>
           </Grid>
         </Container>
+          */}
         <Testimonials />
-        <Download />
+        <Team />
+        <Newsletter />
+        {/*
+          <Download />
         <MKBox pt={18} pb={6}>
           <Container>
             <Grid container spacing={3}>
@@ -214,6 +214,7 @@ function Presentation() {
             </Grid>
           </Container>
         </MKBox>
+          */}
       </Card>
       {footer}
     </>

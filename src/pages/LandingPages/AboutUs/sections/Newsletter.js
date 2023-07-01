@@ -19,10 +19,9 @@ function Newsletter() {
       <Container>
         <Grid container alignItems="center">
           <Grid item sx={12} md={6} sx={{ ml: { xs: 0, lg: 3 }, mb: { xs: 12, md: 0 } }}>
-            <MKTypography variant="h4">Be the first to see the news</MKTypography>
+            <MKTypography variant="h4">Get in touch with us..</MKTypography>
             <MKTypography variant="body2" color="text" mb={3}>
-              Your company may not be in the software business, but eventually, a software company
-              will be in your business.
+              Just share your Email-ID with us, and we will get back to you within next 24 hours
             </MKTypography>
             <Grid container spacing={1}>
               <Grid item xs={8}>
@@ -30,7 +29,7 @@ function Newsletter() {
               </Grid>
               <Grid item xs={4}>
                 <MKButton variant="gradient" color="info" sx={{ height: "100%" }}>
-                  Subscribe
+                  Contact Me
                 </MKButton>
               </Grid>
             </Grid>

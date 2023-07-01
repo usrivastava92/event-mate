@@ -29,19 +29,18 @@ function Information() {
                   <>
                     Feel the
                     <br />
-                    {process.env.REACT_APP_TITLE}
+                    Event
                   </>
                 }
-                description="All the MUI components that you need in a development have been re-design with the new look."
+                description="All the events organised by us are amazing"
               />
               <RotatingCardBack
                 image={bgBack}
                 title="Discover More"
-                description="You will save a lot of time going from prototyping to full-functional code because all elements are implemented."
+                description="Get in touch with us for a 1-on-1 consulation, and we will help you find the best deal"
                 action={{
                   type: "internal",
-                  route: "/sections/page-sections/page-headers",
-                  label: "start with header",
+                  label: "Consult",
                 }}
               />
             </RotatingCard>
