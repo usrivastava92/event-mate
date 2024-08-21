@@ -14,9 +14,9 @@
     "url": ""
   },
   "dependencies": {
-    "@emotion/cache": "11.11.0",
-    "@emotion/react": "11.11.1",
-    "@emotion/styled": "11.11.0",
+    "@emotion/cache": "11.13.1",
+    "@emotion/react": "11.13.3",
+    "@emotion/styled": "11.13.0",
     "@mui/icons-material": "5.13.7",
     "@mui/material": "5.13.7",
     "@mui/styled-engine": "5.13.2",
